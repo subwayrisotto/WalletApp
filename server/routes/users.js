@@ -17,7 +17,7 @@ router.post("/signup", async (req, res) => {
         password: req.body.password,
         firstName: req.body.firstName
     });
-
+    console.log(newUser)
     await newUser.save();
 
     res.status(201).json({
