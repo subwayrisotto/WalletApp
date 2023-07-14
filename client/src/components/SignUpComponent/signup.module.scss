@@ -1,0 +1,15 @@
+.test{
+    color: red;
+}
+
+.signupForm{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    label{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+}
